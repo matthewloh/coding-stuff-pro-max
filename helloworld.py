@@ -1,42 +1,42 @@
 #data types
-int
-float
-complex
-str
-bool
-list
-tuple
-set
-dict
+# int
+# float
+# complex
+# str
+# bool
+# list
+# tuple
+# set
+# dict
 
 #Variables need to be like this
-_some_stuff = "wtf"
+# _some_stuff = "wtf"
 #has to start with underscore, lowercase or uppercase, not numbers or symbols
 
 #Strings
 #[start:stop:stepover]
 #immutability (strings cannot be changed, you cant reassign a part of a string, and it'll take an entirely new memory value)
-quote = "to be or not to be"
+# quote = "to be or not to be"
 
-quote2 = (quote.replace("be" , "hey"))
-print(quote2)
-print(quote)
-#Booleans
+# quote2 = (quote.replace("be" , "hey"))
+# print(quote2)
+# print(quote)
+# #Booleans
 
 #Password checker 
-username = input("Please insert your username") #username
+# username = input("Please insert your username") #username
 
-pw = input("Please insert your password") #password
+# pw = input("Please insert your password") #password
 
-pwl = len((pw.strip())) #password length
+# pwl = len((pw.strip())) #password length
 
-asterisks = ('*' * int(pwl)) # "*" number of elements in pwl
-print(f"Hey {username}, your password {asterisks} is {pwl} characters long") #("Hey {username},  password {pw} is {pwl} long)
+# asterisks = ('*' * int(pwl)) # "*" number of elements in pwl
+# print(f"Hey {username}, your password {asterisks} is {pwl} characters long") #("Hey {username},  password {pw} is {pwl} long)
 
-if pwl > 10:
-    print("Wtf are you doing that's a long ass password")
-else:
-    print ("Your password is less than 10 characters long")
+# if pwl > 10:
+#     print("Wtf are you doing that's a long ass password")
+# else:
+#     print ("Your password is less than 10 characters long")
 
 #Data Structures are a way to organize information and data into a folder. There are different types of data structure
 #suitable for each stuff. It can contain all kinds of shtuff of the data types.
@@ -108,3 +108,11 @@ else:
 # print(your_set.issuperset(your_set))
 # can use .update
 #
+class BigObject: #Class or a blueprint
+    #code
+    #Big object is a blueprint for the objects
+    pass
+obj1 = BigObject() #Calling the class, instatiating this class to make an object
+obj2 = BigObject() #Calling the class, instatiating this class to make an object
+obj3 = BigObject() #Calling the class, instatiating this class to make an object
+print(type(obj1))
