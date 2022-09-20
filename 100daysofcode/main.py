@@ -37,7 +37,7 @@ def start_timer():
 
     #If it's the first third or fifth(uneven until 7th rep)
     if reps % 8 == 0:
-        count_down(long_break_sec)
+        count_down(long_break_sec) 
         title_label.config(text="Break", fg= RED)
     elif reps % 2 == 0:
         count_down(short_break_sec)
