@@ -1,0 +1,1 @@
+import iffdundermainequalequal.namemain as namemain
